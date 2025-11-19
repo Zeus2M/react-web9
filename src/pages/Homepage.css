@@ -1,0 +1,27 @@
+.homepage .hero{
+    background-color: rgba(185, 255, 251, 0.514);
+    padding: 1rem 4rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homepage h4{
+    font-weight: 500;
+}
+
+
+.homepage .all-students-display{
+    padding: 2rem 4rem;
+}
+.homepage .all-students-display h5{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.homepage .students-card-wrapper{
+    display: flex;
+    gap: 1rem;
+    flex-wrap:wrap;
+}

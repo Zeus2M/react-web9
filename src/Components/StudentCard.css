@@ -1,0 +1,48 @@
+.class-component-body{
+    width: 200px;
+   
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0,
+    0, 0.1);
+    overflow: hidden;
+
+}
+.class-component-body img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.card-content{
+    padding:  8px;
+}
+
+.card-content p{
+    font-size: .8rem;
+    color: #333;
+   
+    height: 40px;
+    overflow-y: hidden;
+}
+
+.card-content button{
+   
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+.card-content button:hover{
+    opacity: .6;
+}
+.card-content a{
+    color: white;
+    text-decoration: none;
+}

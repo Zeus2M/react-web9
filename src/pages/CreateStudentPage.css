@@ -1,0 +1,45 @@
+.create-student-page form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+.create-student-page form input, .create-student-page form textarea{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.create-student-page textarea{
+    resize: vertical;
+}
+.create-student-page form button{
+     padding: 0.5rem 1rem;
+    background-color: rgb(0, 190, 86);;
+    color:#333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    color: white;
+}
+.create-student-page .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.create-student-page main{
+    padding: 2rem 4rem;
+
+}
+
+.create-student-page .error{
+    color: red;
+    font-size: .8rem;
+    font-style: italic;
+    margin-top: 4px;
+}
+.create-student-page select{
+    padding: 0.5rem;
+}
